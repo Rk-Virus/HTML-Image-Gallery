@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100vw;
+    height: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+
+#headline{
+    text-align: center;
+
+}
+.line{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+}
+
+.gallery{
+    width: 50vw;
+    min-width: 100px;
+    max-width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    display: inline-block;
+    margin: 10px 8px;
+    border: 5px dashed black;
+    border-radius: 15px;
+}
+.gallery p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gallery img{
+    height: 80%;
+    width: 95%;
+    margin-bottom: -20px;
+    padding: 5px 5px 0px 5px;
+}
